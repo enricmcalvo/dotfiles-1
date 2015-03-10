@@ -1,1 +1,17 @@
+#### git related alias
+alias ga='git add'
+alias gb='git branch'
+alias gc='git checkout'
+alias gcam='git commit -a -m'
+alias gcm='git commit -m'
+alias gd='git diff --ignore-all-space'
+alias gl='git log --oneline'
+alias gll='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
+alias gs='git status'
 
+### generic
+#alias l='ls -l'
+#alias ll='ls -la'
+#alias ls='ls --color=auto'
+alias rgrep='grep -r'
+alias mydate='date +%Y-%m-%d_%H_%M_%S'
